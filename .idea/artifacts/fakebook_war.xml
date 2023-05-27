@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="fakebook:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>fakebook</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="fakebook-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="fakebook:war exploded" />
+    </root>
+  </artifact>
+</component>
